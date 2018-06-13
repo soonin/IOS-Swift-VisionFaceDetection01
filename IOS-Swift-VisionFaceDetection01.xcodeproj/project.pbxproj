@@ -12,6 +12,7 @@
 		FAA5076020D1378600158067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA5075E20D1378600158067 /* Main.storyboard */; };
 		FAA5076220D1378700158067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA5076120D1378700158067 /* Assets.xcassets */; };
 		FAA5076520D1378700158067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA5076320D1378700158067 /* LaunchScreen.storyboard */; };
+		FAA5076D20D137AC00158067 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5076C20D137AC00158067 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FAA5076120D1378700158067 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA5076420D1378700158067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA5076620D1378700158067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA5076C20D137AC00158067 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				FAA5075A20D1378600158067 /* AppDelegate.swift */,
 				FAA5075C20D1378600158067 /* ViewController.swift */,
+				FAA5076C20D137AC00158067 /* ImageViewController.swift */,
 				FAA5075E20D1378600158067 /* Main.storyboard */,
 				FAA5076120D1378700158067 /* Assets.xcassets */,
 				FAA5076320D1378700158067 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA5075D20D1378600158067 /* ViewController.swift in Sources */,
+				FAA5076D20D137AC00158067 /* ImageViewController.swift in Sources */,
 				FAA5075B20D1378600158067 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
